@@ -1,59 +1,13 @@
-/*DarkMode*/
 
-* {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-
-
-}
-
-header button {
-    background-color: #ffb742;
-    font-family: 'Poppins', sans-serif;
-    font-style: bold;
-    font-weight: 1000;
-    color: black;
-    height: 40px;
-    width: 121px;
-    left: 1271px;
-    top: 23.060546875px;
-    border-radius: 50px;
-    padding: 12px, 26px, 12px, 26px;
-    border-style: none;
-    margin: 10px 0px 30px 10px;
-
-}
-
-nav {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-
-}
-
-.saludo{
-    font-size: 20px;
-    margin: 40px 0px 0px 0px;
-
-}
-
-
-
-body{
+.change-modebody {
     padding: 10px;
-    background-color: #212529;
+    background-color: #E5E5E5;
     font-family: 'Poppins', sans-serif;
-    color: #ffffff;
+    color: #1C1C1C;
     text-align: center;
 }
 
 
-li {
-    display: inline;
-    list-style-type: none;
-    margin: 20px;
-
-}
 
 header {
     display: flex;
@@ -69,7 +23,7 @@ ul {
 main {
     font-family: 'inter', sans-serif;
     text-align: center;
-    /* color: #ffffff; */
+    color: #ffffff;
     margin: 0px 10px;
     
 }
@@ -230,15 +184,5 @@ footer button {
     margin: 10px;
 
     
-}
-
-/*LigthMode*/
-
-.change-modebody{
-    /* padding: 10px; */
-    background-color: #E5E5E5;
-    /* font-family: 'Poppins', sans-serif; */
-    color: #1C1C1C;
-    text-align: center;
 }
 
