@@ -20,7 +20,7 @@ botonChangeMode.addEventListener("click",changemode)
 
  function changemode () {
         document.querySelector("body").classList.toggle("change-modebody")
-        document.querySelector(".enlace").classList.toggle("change-modebody")
+        /* document.querySelector(".enlace").classList.toggle("change-modebody") */
         /* document.querySelector("nav").classList.toggle("change-modebody")*/
  }
 
