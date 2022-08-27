@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins&family=Work+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
     <title>About</title>
 </head>
 <body>
     <header>
-        <img src="./img/Frame 7.svg"> </img>
+        <img class="logo" src="./img/Frame 7.svg" alt="Logo"> </img>
         <nav>
             <ul>
-               <li><a href="index - copia.html"> Home </a></li> 
-               <li><a href="About.html"> About </a></li>
-               <li><a href="Experience.html"> Experience </a></li>
-               <li><a href="Contact.html"> Contact </a></li>
+                <li><a href="index - copia.html"> Home </a></li> 
+                <li><a href="About.html"> About </a></li>
+                <li><a href="Experience.html"> Experience </a></li>
+                <li><a href="Contact.html"> Contact </a></li>
             </ul>
         </nav>
-        <button> Change Mode </button>
+        <button id="botonChangeMode"> Change Mode </button>
     </header>
         <section>
             <div>
-                <img src="./img/Foto.png"> </img>  
+                <img class="foto" src="./img/Foto.png"> </img>  
                 
             </div>
 
@@ -38,35 +44,35 @@
 
 
     <footer>
+        <div class="footername">
+            <h1 class="mynameyellowfooter">Paola Jaramillo</h1>
+            <span class="profession">Mechanical Engineer & Dev Wannabe</span>
+        </div>
         <div>
-        
-            <h2>Paola Jaramillo</h2>
-            <h4>Mechanical Engineer & Dev Wannabe</h4>
-        
-            <ul>
-                <span>Useful Links</span>
-                <li><h5><a href="index.html"> Home </a></h5></li>
-                <li> <h5><a href="About.html"> About </a></h5></li>
-                <li><h5><a href="Experience.html"> Experience </a></h5></li>
-                <li><h5><a href="Contact.html"> Contact </a></h5></ul></li>
+            <span class="tittlefooter">Useful Links</span>
+            <ul class="contentfooter">
+                <li class="linkfooter"><a style=color:#7b7b7b href="index - copia.html"> Home </a></li>
+                <li class="linkfooter"><a style=color:#7b7b7b href="About.html"> About </a></li>
+                <li class="linkfooter"><a style=color:#7b7b7b href="Experience.html"> Experience </a</li>
+                <li class="linkfooter"><a style=color:#7b7b7b href="Contact.html"> Contact </a></li>
             </ul>
         </div>
         <div>
+            <span class="tittlefooter">Social Media</span>
             <ul>
-                <span>Social Media</span>
-                <li><h5><a href="linkedin.html"> Home </a></h5></li>
-                <li> <h5><a href="Github.html"> About </a></h5></li>
-                <li><h5><a href="Instagram.html"> Experience </a></h5></li>
-                
+                <li class="linkfooter"><a style=color:#7b7b7b href="https://www.linkedin.com/in/paola-jaramillo-b09900200/">Linkedin</a></li>
+                <li class="linkfooter"><a style=color:#7b7b7b href="https://github.com/PaooJara">Github</a></li>
+                <li class="linkfooter"><a style=color:#7b7b7b href="https://www.instagram.com/paojaramillogomez/">Instagram</a></li>
             </ul>
         </div>
         <div>
-            <ul>
-                <span>Hire Me</span>
-                <li>Enter your email to get my portafolio and CV.</li>
-                <li><form action="">Email Address</form></li>
-            </ul>
+            <p> <span class="tittlefooter"> Hire me  </span></p>
+            <p class="linkfooter" style=color:#7b7b7b> Enter your email to get my portafolio CV.</p>
+            <div class="input_footer">
+                <input type="email" placeholder="Your email address">
+                <img class="imagen_sumbmmit" src="./img/Submmit.png" alt="Imagensubmit">
         </div>
     </footer>
+    <script src="DOMCV.js"></script>
 </body>
 </html>

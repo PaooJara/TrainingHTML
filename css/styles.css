@@ -6,11 +6,6 @@
     padding: 0px;
 }
 
-.linkheader{
-    color: #ffffff
-    
-
-}
 
 /* .text-base-dark{
     color: white;
@@ -160,12 +155,13 @@ footer li {
 }
 
 .profession{
-    padding-top: 50px;
+    color:#ffffff
 }
 
 .tittlefooter{
     font-family: 'Work Sans';
     font-style:bold;
+    color:#ffffff
     
 }
 
@@ -188,7 +184,6 @@ section {
 
 #valoramarillo {
     color: #ffb742;
-    font-weight: 1000;
     font-size: large;
     
 
@@ -240,6 +235,43 @@ section {
 }
 
 
+.linkfooter{
+    color:#7B7B7B;
+    font-family:"Work Sans";
+    font-style: bold;
+}
+.input_footer{
+    display: flex;
+    background: #212529;
+    border-radius: 50px;
+    color: #7C7C7C;
+    height: 40px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.input_footer > input{
+    width: calc(100% - 40px - 10px);
+    margin-left: 20px;
+    height: 100%;
+    background: none;
+    color: #7B7B7B;
+    font-weight: 700;
+    line-height: 100%;
+    border: none;
+}
+
+.input_footer > input::placeholder{
+    color: #7B7B7B;
+
+}
+
+.imagen_sumbmmit{
+    height: 45px;
+    width: 45px;
+    
+}
+
 
 footer button {
     margin: 10px;
@@ -258,6 +290,13 @@ footer button {
     margin: 10px;
 
     
+}
+
+/*About*/
+.foto{
+    height: 400px;
+    width: 400px;
+
 }
 
 /*LightMode*/
@@ -284,7 +323,7 @@ footer button {
 
 /*Experience sheet*/
 
-.experience{
+.botongris{
     background-color: rgba(255,255,255,0.08);
     font-family: 'Poppins', sans-serif;
     font-style: bold;
@@ -366,4 +405,80 @@ footer button {
 
 .linkwwc{
     color:#ffb742
+}
+
+/*Contact sheet*/
+
+
+
+
+.caja_chiste{
+    width:450px;
+    height: 350px;
+    background-color: var(--secundary-bg-color);
+    border-radius: 12px;
+    margin: 0 auto;
+}
+
+#joke{
+    display: flex;
+    text-align: center;
+    color: var(--main-color);
+    font-size: 18px;
+    font-family: 'Poppins';
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+#answer{
+    display: flex;
+    text-align: center;
+    color: var(--main-color);
+    font-size: 18px;
+    font-family: 'Poppins';
+    padding: 10px;
+    word-wrap: break-word;
+
+}
+
+.boton_chiste{
+    background-color: #ffb742;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 1000;
+    color: black;
+    height: 40px;
+    width: 121px;
+    left: 1271px;
+    top: 23.060546875px;
+    border-radius: 50px;
+    padding: 12px, 26px, 12px, 26px;
+    border-style: none;
+    margin: 10px 0px 30px 10px;
+
+
+}
+
+#siguientechiste{
+    cursor: pointer;
+}
+
+
+
+
+.boton_enviar{
+    background-color: #ffb742;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 1000;
+    color: black;
+    height: 40px;
+    width: 121px;
+    left: 1271px;
+    top: 23.060546875px;
+    border-radius: 50px;
+    padding: 12px, 26px, 12px, 26px;
+    border-style: none;
+    margin: 10px 0px 30px 10px;
+
 }

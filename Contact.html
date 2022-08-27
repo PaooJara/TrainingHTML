@@ -1,64 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins&family=Work+Sans:wght@300&display=swap"rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
     <title>Contact</title>
 </head>
 <body>
-  <header>
-    <img src="./img/Frame 7.svg"> </img>
-    <nav>
-        <ul>
-           <li><a href="index - copia.html"> Home </a></li> 
-           <li><a href="About.html"> About </a></li>
-           <li><a href="Experience.html"> Experience </a></li>
-           <li><a href="Contact.html"> Contact </a></li>
-        </ul>
-    </nav>
-    <button> Change Mode </button>
-</header>
+    <header>
+        <img class="logo" src="./img/Frame 7.svg" alt="Logo"> </img>
+        <nav>
+            <ul>
+                <li><a href="index - copia.html"> Home </a></li> 
+                <li><a href="About.html"> About </a></li>
+                <li><a href="Experience.html"> Experience </a></li>
+                <li><a href="Contact.html"> Contact </a></li>
+            </ul>
+        </nav>
+        <button id="botonChangeMode"> Change Mode </button>
+    </header>
+    <main>
+        <div>
+            <button class="botongris">SMILE!!</button>
+            <h2>Contact Me, or... Smile!</h2>
+        </div>
+
+        <div class="caja_chiste">
+            <div id="joke"></div>
+            <div id="answer"></div>
+        </div>
+
+        <div>
+            <button class="boton_chiste" >One More!</button>
+        </div>
 
 
+        </section>
+            <div class="contact_box">
+                <button class="botongris"> CONTACT ME </button>
+            </div>
+            <form action="#ubicacion" method="post"> 
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email address">
+                <input type="number" placeholder="Phone number">
+                <button class="boton_enviar"> Send</button>
+            </form>
+    </main>
 
-
-
-
-
-
-
-
-<footer>
-    <div>
     
-        <h2>Paola Jaramillo</h2>
-        <h4>Mechanical Engineer & Dev Wannabe</h4>
-    
-        <ul>
-            <span>Useful Links</span>
-            <li><h5><a href="index.html"> Home </a></h5></li>
-            <li> <h5><a href="About.html"> About </a></h5></li>
-            <li><h5><a href="Experience.html"> Experience </a></h5></li>
-            <li><h5><a href="Contact.html"> Contact </a></h5></ul></li>
-        </ul>
-    </div>
-    <div>
-        <ul>
-            <span>Social Media</span>
-            <li><h5><a href="linkedin.html"> Home </a></h5></li>
-            <li> <h5><a href="Github.html"> About </a></h5></li>
-            <li><h5><a href="Instagram.html"> Experience </a></h5></li>
-            
-        </ul>
-    </div>
-    <div>
-        <ul>
-            <span>Hire Me</span>
-            <li>Enter your email to get my portafolio and CV.</li>
-            <li><form action="">Email Address</form></li>
-        </ul>
-    </div>
-</footer> 
+    <footer>
+        <div class="footername">
+            <h1 class="mynameyellowfooter">Paola Jaramillo</h1>
+            <span class="profession">Mechanical Engineer & Dev Wannabe</span>
+        </div>
+        <div>
+            <span class="tittlefooter">Useful Links</span>
+            <ul class="contentfooter">
+                <li class="linkfooter"><a style=color:#7b7b7b href="index - copia.html"> Home </a></li>
+                <li class="linkfooter"><a style=color:#7b7b7b href="About.html"> About </a></li>
+                <li class="linkfooter"><a style=color:#7b7b7b href="Experience.html"> Experience </a</li>
+                <li class="linkfooter"><a style=color:#7b7b7b href="Contact.html"> Contact </a></li>
+            </ul>
+        </div>
+        <div>
+            <span class="tittlefooter">Social Media</span>
+            <ul>
+                <li class="linkfooter"><a style=color:#7b7b7b href="https://www.linkedin.com/in/paola-jaramillo-b09900200/">Linkedin</a></li>
+                <li class="linkfooter"><a style=color:#7b7b7b href="https://github.com/PaooJara">Github</a></li>
+                <li class="linkfooter"><a style=color:#7b7b7b href="https://www.instagram.com/paojaramillogomez/">Instagram</a></li>
+            </ul>
+        </div>
+        <div>
+            <p> <span class="tittlefooter"> Hire me  </span></p>
+            <p class="linkfooter" style=color:#7b7b7b> Enter your email to get my portafolio CV.</p>
+            <div class="input_footer">
+                <input type="email" placeholder="Your email address">
+                <img class="imagen_sumbmmit" src="./img/Submmit.png" alt="Imagensubmit">
+        </div>
+    </footer>
+    <script src="DOMCV.js"></script>
 </body>
 </html>
