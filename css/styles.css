@@ -4,14 +4,18 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+}
 
+.linkheader{
+    color: #ffffff
+    
 
 }
 
-.text-base-dark{
+/* .text-base-dark{
     color: white;
 
-}
+} */
 
 header button {
     background-color: #ffb742;
@@ -45,11 +49,11 @@ nav {
 }
 
 body{
-    padding: 10px;
+    padding: 0px;
     background-color: #212529;
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
-    text-align: center;
+    /* text-align: center; */
 }
 
 
@@ -74,7 +78,6 @@ ul{
 main{
     font-family: 'inter', sans-serif;
     text-align: center;
-    color: #ffffff;
     margin: 0px 10px;
     
 }
@@ -103,7 +106,7 @@ main h1{
 }
 
 
-a:visited{
+/* a:visited{
     text-decoration: none;
     color:white;
 }
@@ -112,21 +115,29 @@ a:visited{
 a:link {
     text-decoration: none;
     color: white;
+} */
+
+a {
+    text-decoration: none;
+    color:white;
 }
 
 a:hover {
     color: #ffb742;
 }
 
-
-
 footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
     display: flex;
     background-color: #1c1c1c;
-    justify-content: space-between;
+    justify-content: space-around;
+    
 }
 
-
+/* .footername{
+    padding: 30px;
+} */
 
 footer ul {
     flex-direction: column;
@@ -138,14 +149,25 @@ footer li {
 }
 
 .mynameyellowfooter{
-    font-family: 'inter', sans-serif;
+    font-family: 'Poppins';
     color: #ffb742;
-    font-size: xx-large;
+    font-size: 30px;
     font-style: bold;
-    font-weight: 1000;
+    margin-bottom:50px;
 
+    
+    
 }
 
+.profession{
+    padding-top: 50px;
+}
+
+.tittlefooter{
+    font-family: 'Work Sans';
+    font-style:bold;
+    
+}
 
 
 
@@ -182,6 +204,7 @@ section {
     padding: 20px;
     text-align: center;
     border-radius: 10px;
+    color:#E5E5E5
     
     
 }
@@ -239,18 +262,25 @@ footer button {
 
 /*LightMode*/
 
-.change-modebody{
-    /* padding: 10px; */
+.change-modebody {
     background-color: #E5E5E5;
-    /* font-family: 'Poppins', sans-serif; */
-    color: #1C1C1C;
-    text-align: center;
+    color:#1c1c1c
 }
 
-.text-base-light{
+.change-modeetiqueta {
+    text-decoration:none;
+    color:black;
+
+}
+
+.change-modelink{
+    color:#1c1c1c
+
+}
+/* .text-base-light{
     color: black;
 
-}
+} */
 
 /*Experience sheet*/
 
@@ -332,4 +362,8 @@ footer button {
     flex-direction: column;
     text-align: left;
 
+}
+
+.linkwwc{
+    color:#ffb742
 }

@@ -1,4 +1,21 @@
 const botonChangeMode = document.getElementById("botonChangeMode")
+botonChangeMode.addEventListener("click",changemode)
+
+
+function changemode () {
+   /*  let body= */
+    document.querySelector("body").classList.toggle("change-modebody")
+
+    document.querySelectorAll(".linkheader").classList.toggle("change-modelink")
+
+        /* let etiqueta= */ 
+    document.querySelectorAll("a").etiqueta.forEach(element => {element.classList.toggle("change-modeetiqueta")
+
+})
+}
+
+
+
 /* const navChangeMode = document.getElementById("botonChangeMode") */
 
 /* function changemode () {
@@ -15,14 +32,11 @@ const botonChangeMode = document.getElementById("botonChangeMode")
 }
 } */
 
-botonChangeMode.addEventListener("click",changemode)
 
 
- function changemode () {
-        document.querySelector("body").classList.toggle("change-modebody")
         /* document.querySelector(".enlace").classList.toggle("change-modebody") */
         /* document.querySelector("nav").classList.toggle("change-modebody")*/
- }
+ 
 
    
 

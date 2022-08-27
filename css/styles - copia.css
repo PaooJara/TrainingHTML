@@ -70,7 +70,7 @@ a:hover {
 footer {
     display: flex;
     background-color: #1c1c1c;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 
@@ -81,7 +81,7 @@ footer ul {
 }
 
 footer li {
-    margin: 10px;
+    margin: 0px;
 }
 
 .mynameyellowfooter{
@@ -90,8 +90,11 @@ footer li {
     font-size: xx-large;
     font-style: bold;
     font-weight: 1000;
+    /* text-align: left; */
 
 }
+
+
 
 
 
