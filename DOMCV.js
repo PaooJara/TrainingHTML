@@ -3,13 +3,11 @@ botonChangeMode.addEventListener("click",changemode)
 
 
 function changemode () {
-  /*  let body= */
-    document.querySelector("body").classList.toggle("change-modebody")
-    /* document.querySelectorAll(".linkheader").classList.toggle("change-modelink") */
-  /* let etiqueta= */ 
- /*    document.querySelectorAll("a").etiqueta.forEach(element => {element.classList.toggle("change-modeetiqueta")
+  document.querySelector("body").classList.toggle("change-modebody") 
+  document.querySelectorAll("a").forEach(element => {
+  element.classList.toggle("change-modeetiqueta")
 
-}) */
+}) 
 }
 
 
