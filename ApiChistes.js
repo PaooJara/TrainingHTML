@@ -9,7 +9,7 @@ if(boton) {
 function chistesAleatorios (){ 
     const endpoint="https://api.dadjokes.io/api/random/joke";
 
-    fetch(endpoint)
+    fetch(endpoint) /*Metodo para llamar la API y de parametro recibe la URL*/
         .then(response => response.json())
         .then(data => {
             document.getElementById("joke").textContent= data.body[0].setup

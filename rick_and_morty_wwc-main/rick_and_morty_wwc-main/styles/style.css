@@ -1,0 +1,231 @@
+:root {
+  --header-background: #67cbf1;
+  --menu-background  : #96c96a;
+  --blue             : #233160;
+  --text-white       : #ffffff;
+  --card-background  : #D7F2F2;
+  --female-background     : pink;
+  --male-background       : #96c96a;
+  --unknown-background    : purple;
+  --genderless-background    : lightgray;
+}
+
+* {
+  margin    : 0;
+  padding   : 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size  : 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-size  : 1.8rem;
+  line-height: 1.5;
+  color      : var(--blue);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  background-color: var(--header-background);
+  display         : flex;
+  justify-content : space-between;
+  align-items     : center;
+  padding         : 0 30px;
+  height          : 60px;
+}
+
+.header p {
+  font-weight: 700;
+  font-size  : 2rem;
+}
+
+.header a {
+  height          : 27px;
+  width           : 132px;
+  border-radius   : 5px;
+  text-align      : center;
+  background-color: #f5f5f5;
+  color           : var(--blue);
+  font-weight     : 700;
+  padding-top     : 2.5px;
+}
+
+.main-section-info {
+  max-width  : 1200px;
+  display    : flex;
+  margin     : 0 auto;
+  padding-top: 30px;
+  flex-wrap  : wrap;
+  justify-content: center;
+}
+
+.main-section-info div {
+  width: 58%;
+}
+
+.main-section-info .section-info-text h1 {
+  font-weight: 700;
+  font-size  : 3.2rem;
+  margin     : 30px 0;
+}
+
+.main-section-info .section-info-text p {
+  line-height  : 2.5rem;
+  margin-bottom: 25px;
+}
+
+.main-section-characters .section-characters-options {
+  background-color: var(--menu-background);
+}
+
+.main-section-characters .section-characters-more {
+  background-color: var(--card-background);
+  text-align: center;
+  padding : 2rem 2rem;
+}
+
+.main-section-characters .section-characters-more li {
+  background-color: orange;
+  text-align: center;
+  cursor: pointer;
+  padding : 1rem 2rem;
+  border-radius   : 5px;
+  color: var(--blue);
+  cursor: pointer;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.section-characters-options ul {
+  display        : flex;
+  height         : 71px;
+  align-items    : center;
+  justify-content: space-evenly;
+  color          : var(--text-white);
+  font-size      : 2rem;
+  font-weight    : 500;
+}
+
+.section-characters-options li {
+  cursor: pointer;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.section-characters-cards {
+  min-height      : 250px;
+  background-color: var(--header-background);
+  text-align      : center;
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
+  font-family     : 'Work Sans', sans-serif;
+  color           : var(--text-white);
+  font-size       : 3.2rem;
+  padding         : 30px;
+  flex-wrap       : wrap;
+}
+
+.character-card {
+  background-color: var(--card-background);
+  width           : 287px;
+  height          : 480px;
+  padding         : 12px;
+  display         : flex;
+  flex-direction  : column;
+  align-items     : center;
+  border-radius   : 15px;
+  justify-content : space-between;
+  margin          : 1rem;
+}
+
+.character-card h2 {
+  font-size: 2.4rem;
+  color    : var(--blue);
+}
+
+.character-card picture {
+  width           : 250px;
+  height          : 50%;
+  background-color: var(--text-white);
+  display         : block;
+}
+
+.character-card picture  img {
+  width           : 100%;
+}
+
+.character-card span {
+  font-size       : 1.6rem;
+  margin-top      : 12px;
+  padding         : 4px;
+  width           : 100px;
+  border-radius   : 5px;
+}
+
+.male-background {
+  background-color: var(--male-background);
+}
+
+.female-background {
+  background-color: var(--female-background);
+}
+
+.unknown-background {
+  background-color: var(--unknown-background);
+}
+.genderless-background {
+  background-color: var(--genderless-background);
+}
+
+.character-card p {
+  font-size : 1.6rem;
+  color     : var(--blue);
+  margin-top: 8px;
+}
+
+.character-card ul {
+  list-style: circle;
+  font-size: 1rem;
+  text-align: left;
+  color     : var(--blue);
+}
+
+.footer {
+  background-color: var(--menu-background);
+  display         : flex;
+  justify-content : space-around;
+  padding-top     : 30px;
+  color           : var(--text-white);
+}
+
+.footer-subtitle {
+  font-weight: 700;
+  font-size  : 2.2rem;
+}
+
+.footer ul li a {
+  color      : #eeeeee;
+  font-weight: 100;
+}
+
+.error {
+  text-align: center;
+  color: red;
+}
