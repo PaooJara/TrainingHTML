@@ -90,7 +90,7 @@ main h1{
     background-color: #96C96A;
 }
 
-.mesajecategorias{
+#mensaje_categorias{
     display: flex;
     text-align: center;
     background-color: #72C7D0;
@@ -99,9 +99,6 @@ main h1{
 
 }
 
-.sectioncards{
-    
-}
 
 
 #description{
