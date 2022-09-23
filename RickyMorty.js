@@ -133,10 +133,12 @@ alive.addEventListener("click",filter_alive)
 
 /*Filter Dead*/
 
-const filter_deads = "https://rickandmortyapi.com/api/character/?status=dead";
 
 
-function filter_dead() {
+
+function filter_dead(num) {
+  const filter_deads = `https://rickandmortyapi.com/api/character/?status=dead&page=${num}`;
+
   fetch(filter_deads) /*Metodo para llamar la API y de parametro recibe la URL*/
     .then(response => response.json())
     .then(data => {
@@ -161,6 +163,29 @@ const deads= document.getElementById("dead")
 
 
 deads.addEventListener("click",filter_dead)
+
+
+/*Botones Next & Previous*/
+
+let contador = 1
+
+
+const previous= document.getElementById("prev")
+const next= document.getElementById("next")
+
+previous.addEventListener("click",function(){
+  contador = contador - 1 
+  filter_dead(contador) 
+})
+next.addEventListener("click",function(){
+  contador = contador + 1  
+  alert("hola")
+  filter_dead(contador)
+})
+next.addEventListener("click",function(){
+  contador = contador + 1  
+  filter_female(contador)
+})
 
 
 

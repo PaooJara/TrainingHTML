@@ -11,6 +11,10 @@
 
 } */
 
+.tittle{
+    font-style:bold;
+}
+
 header button {
     background-color: #D7F2F2;
     font-family: 'Poppins', sans-serif;
@@ -33,6 +37,7 @@ header button {
 nav {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    text-align: center;
 
 }
 
